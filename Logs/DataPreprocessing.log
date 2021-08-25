@@ -1,0 +1,18 @@
+2021-07-31 22:20:03,080 - Data Preprocessing - INFO - Dropping Unnecessary  Columns.
+2021-07-31 22:20:06,144 - Data Preprocessing - INFO - Reading data from CSV for preprocessing
+2021-07-31 22:20:06,271 - Data Preprocessing - INFO - Converting dates to DateTime.
+2021-07-31 22:20:09,406 - Data Preprocessing - INFO - Data conversion to datetime complete!
+2021-07-31 22:20:09,407 - Data Preprocessing - INFO - Checking null Values.
+2021-07-31 22:20:09,468 - Data Preprocessing - INFO - Resampling the data for model training !
+2021-07-31 22:20:10,259 - Data Preprocessing - INFO - Data resampling complete!
+2021-07-31 22:20:10,260 - Data Preprocessing - INFO - Checking null values for resampled data!
+2021-07-31 22:20:10,691 - Data Preprocessing - INFO - Sensor Data file preprocessing complete.
+2021-07-31 22:28:43,682 - Data Preprocessing - INFO - Dropping Unnecessary  Columns.
+2021-07-31 22:28:46,992 - Data Preprocessing - INFO - Reading data from CSV for preprocessing
+2021-07-31 22:28:47,111 - Data Preprocessing - INFO - Converting dates to DateTime.
+2021-07-31 22:28:49,231 - Data Preprocessing - INFO - Data conversion to datetime complete!
+2021-07-31 22:28:49,232 - Data Preprocessing - INFO - Checking null Values.
+2021-07-31 22:28:49,282 - Data Preprocessing - INFO - Resampling the data for model training !
+2021-07-31 22:28:49,928 - Data Preprocessing - INFO - Data resampling complete!
+2021-07-31 22:28:49,929 - Data Preprocessing - INFO - Checking null values for resampled data!
+2021-07-31 22:28:50,237 - Data Preprocessing - INFO - Sensor Data file preprocessing complete.

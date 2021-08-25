@@ -1,0 +1,337 @@
+2021-07-31 22:20:10,714 - Run Training - INFO - Forecast Dir created for storing today's forecast data.
+2021-07-31 22:20:10,754 - Run Training - INFO - co Model Training Started
+2021-07-31 22:21:27,493 - Run Training - INFO - co Model Created
+2021-07-31 22:21:37,007 - Run Training - INFO - co Forecast Data is Saved
+2021-07-31 22:21:44,320 - Model Train - INFO - Error in creating plots for co
+2021-07-31 22:21:44,322 - Model Train - ERROR - 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\model_training\train.py", line 252, in plot_predictions
+    fig.write_image("Forecast/Production/{}/Plots/{}_fig.jpeg".format(self.date.today_date(), format(var)))
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\basedatatypes.py", line 3821, in write_image
+    return pio.write_image(self, *args, **kwargs)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 275, in write_image
+    engine=engine,
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 139, in to_image
+    """
+ValueError: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2021-07-31 22:21:44,328 - Run Training - INFO - Actual vs Forecast for co saved.
+2021-07-31 22:21:44,331 - Run Training - INFO - Accuracy Metrics for co saved.
+2021-07-31 22:21:44,360 - Run Training - INFO - humidity Model Training Started
+2021-07-31 22:22:45,939 - Run Training - INFO - humidity Model Created
+2021-07-31 22:22:55,401 - Run Training - INFO - humidity Forecast Data is Saved
+2021-07-31 22:23:03,260 - Model Train - INFO - Error in creating plots for humidity
+2021-07-31 22:23:03,260 - Model Train - INFO - Error in creating plots for humidity
+2021-07-31 22:23:03,261 - Model Train - ERROR - 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\model_training\train.py", line 252, in plot_predictions
+    fig.write_image("Forecast/Production/{}/Plots/{}_fig.jpeg".format(self.date.today_date(), format(var)))
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\basedatatypes.py", line 3821, in write_image
+    return pio.write_image(self, *args, **kwargs)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 275, in write_image
+    engine=engine,
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 139, in to_image
+    """
+ValueError: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2021-07-31 22:23:03,261 - Model Train - ERROR - 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\model_training\train.py", line 252, in plot_predictions
+    fig.write_image("Forecast/Production/{}/Plots/{}_fig.jpeg".format(self.date.today_date(), format(var)))
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\basedatatypes.py", line 3821, in write_image
+    return pio.write_image(self, *args, **kwargs)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 275, in write_image
+    engine=engine,
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 139, in to_image
+    """
+ValueError: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2021-07-31 22:23:03,263 - Run Training - INFO - Actual vs Forecast for humidity saved.
+2021-07-31 22:23:03,266 - Run Training - INFO - Accuracy Metrics for humidity saved.
+2021-07-31 22:23:03,295 - Run Training - INFO - lpg Model Training Started
+2021-07-31 22:24:10,018 - Run Training - INFO - lpg Model Created
+2021-07-31 22:24:25,415 - Run Training - INFO - lpg Forecast Data is Saved
+2021-07-31 22:24:37,369 - Model Train - INFO - Error in creating plots for lpg
+2021-07-31 22:24:37,369 - Model Train - INFO - Error in creating plots for lpg
+2021-07-31 22:24:37,369 - Model Train - INFO - Error in creating plots for lpg
+2021-07-31 22:24:37,371 - Model Train - ERROR - 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\model_training\train.py", line 252, in plot_predictions
+    fig.write_image("Forecast/Production/{}/Plots/{}_fig.jpeg".format(self.date.today_date(), format(var)))
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\basedatatypes.py", line 3821, in write_image
+    return pio.write_image(self, *args, **kwargs)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 275, in write_image
+    engine=engine,
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 139, in to_image
+    """
+ValueError: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2021-07-31 22:24:37,371 - Model Train - ERROR - 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\model_training\train.py", line 252, in plot_predictions
+    fig.write_image("Forecast/Production/{}/Plots/{}_fig.jpeg".format(self.date.today_date(), format(var)))
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\basedatatypes.py", line 3821, in write_image
+    return pio.write_image(self, *args, **kwargs)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 275, in write_image
+    engine=engine,
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 139, in to_image
+    """
+ValueError: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2021-07-31 22:24:37,371 - Model Train - ERROR - 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\model_training\train.py", line 252, in plot_predictions
+    fig.write_image("Forecast/Production/{}/Plots/{}_fig.jpeg".format(self.date.today_date(), format(var)))
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\basedatatypes.py", line 3821, in write_image
+    return pio.write_image(self, *args, **kwargs)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 275, in write_image
+    engine=engine,
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 139, in to_image
+    """
+ValueError: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2021-07-31 22:24:37,377 - Run Training - INFO - Actual vs Forecast for lpg saved.
+2021-07-31 22:24:37,383 - Run Training - INFO - Accuracy Metrics for lpg saved.
+2021-07-31 22:24:37,415 - Run Training - INFO - smoke Model Training Started
+2021-07-31 22:25:44,417 - Run Training - INFO - smoke Model Created
+2021-07-31 22:25:55,920 - Run Training - INFO - smoke Forecast Data is Saved
+2021-07-31 22:26:06,915 - Model Train - INFO - Error in creating plots for smoke
+2021-07-31 22:26:06,915 - Model Train - INFO - Error in creating plots for smoke
+2021-07-31 22:26:06,915 - Model Train - INFO - Error in creating plots for smoke
+2021-07-31 22:26:06,915 - Model Train - INFO - Error in creating plots for smoke
+2021-07-31 22:26:06,917 - Model Train - ERROR - 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\model_training\train.py", line 252, in plot_predictions
+    fig.write_image("Forecast/Production/{}/Plots/{}_fig.jpeg".format(self.date.today_date(), format(var)))
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\basedatatypes.py", line 3821, in write_image
+    return pio.write_image(self, *args, **kwargs)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 275, in write_image
+    engine=engine,
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 139, in to_image
+    """
+ValueError: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2021-07-31 22:26:06,917 - Model Train - ERROR - 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\model_training\train.py", line 252, in plot_predictions
+    fig.write_image("Forecast/Production/{}/Plots/{}_fig.jpeg".format(self.date.today_date(), format(var)))
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\basedatatypes.py", line 3821, in write_image
+    return pio.write_image(self, *args, **kwargs)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 275, in write_image
+    engine=engine,
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 139, in to_image
+    """
+ValueError: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2021-07-31 22:26:06,917 - Model Train - ERROR - 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\model_training\train.py", line 252, in plot_predictions
+    fig.write_image("Forecast/Production/{}/Plots/{}_fig.jpeg".format(self.date.today_date(), format(var)))
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\basedatatypes.py", line 3821, in write_image
+    return pio.write_image(self, *args, **kwargs)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 275, in write_image
+    engine=engine,
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 139, in to_image
+    """
+ValueError: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2021-07-31 22:26:06,917 - Model Train - ERROR - 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\model_training\train.py", line 252, in plot_predictions
+    fig.write_image("Forecast/Production/{}/Plots/{}_fig.jpeg".format(self.date.today_date(), format(var)))
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\basedatatypes.py", line 3821, in write_image
+    return pio.write_image(self, *args, **kwargs)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 275, in write_image
+    engine=engine,
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 139, in to_image
+    """
+ValueError: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2021-07-31 22:26:06,923 - Run Training - INFO - Actual vs Forecast for smoke saved.
+2021-07-31 22:26:06,927 - Run Training - INFO - Accuracy Metrics for smoke saved.
+2021-07-31 22:26:06,957 - Run Training - INFO - temp Model Training Started
+2021-07-31 22:27:05,885 - Run Training - INFO - temp Model Created
+2021-07-31 22:27:15,562 - Run Training - INFO - temp Forecast Data is Saved
+2021-07-31 22:27:22,698 - Model Train - INFO - Error in creating plots for temp
+2021-07-31 22:27:22,698 - Model Train - INFO - Error in creating plots for temp
+2021-07-31 22:27:22,698 - Model Train - INFO - Error in creating plots for temp
+2021-07-31 22:27:22,698 - Model Train - INFO - Error in creating plots for temp
+2021-07-31 22:27:22,698 - Model Train - INFO - Error in creating plots for temp
+2021-07-31 22:27:22,700 - Model Train - ERROR - 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\model_training\train.py", line 252, in plot_predictions
+    fig.write_image("Forecast/Production/{}/Plots/{}_fig.jpeg".format(self.date.today_date(), format(var)))
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\basedatatypes.py", line 3821, in write_image
+    return pio.write_image(self, *args, **kwargs)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 275, in write_image
+    engine=engine,
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 139, in to_image
+    """
+ValueError: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2021-07-31 22:27:22,700 - Model Train - ERROR - 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\model_training\train.py", line 252, in plot_predictions
+    fig.write_image("Forecast/Production/{}/Plots/{}_fig.jpeg".format(self.date.today_date(), format(var)))
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\basedatatypes.py", line 3821, in write_image
+    return pio.write_image(self, *args, **kwargs)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 275, in write_image
+    engine=engine,
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 139, in to_image
+    """
+ValueError: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2021-07-31 22:27:22,700 - Model Train - ERROR - 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\model_training\train.py", line 252, in plot_predictions
+    fig.write_image("Forecast/Production/{}/Plots/{}_fig.jpeg".format(self.date.today_date(), format(var)))
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\basedatatypes.py", line 3821, in write_image
+    return pio.write_image(self, *args, **kwargs)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 275, in write_image
+    engine=engine,
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 139, in to_image
+    """
+ValueError: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2021-07-31 22:27:22,700 - Model Train - ERROR - 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\model_training\train.py", line 252, in plot_predictions
+    fig.write_image("Forecast/Production/{}/Plots/{}_fig.jpeg".format(self.date.today_date(), format(var)))
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\basedatatypes.py", line 3821, in write_image
+    return pio.write_image(self, *args, **kwargs)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 275, in write_image
+    engine=engine,
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 139, in to_image
+    """
+ValueError: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2021-07-31 22:27:22,700 - Model Train - ERROR - 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\model_training\train.py", line 252, in plot_predictions
+    fig.write_image("Forecast/Production/{}/Plots/{}_fig.jpeg".format(self.date.today_date(), format(var)))
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\basedatatypes.py", line 3821, in write_image
+    return pio.write_image(self, *args, **kwargs)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 275, in write_image
+    engine=engine,
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\plotly\io\_kaleido.py", line 139, in to_image
+    """
+ValueError: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2021-07-31 22:27:22,704 - Run Training - INFO - Actual vs Forecast for temp saved.
+2021-07-31 22:27:22,706 - Run Training - INFO - Accuracy Metrics for temp saved.
+2021-07-31 22:28:50,254 - Run Training - INFO - Forecast Dir created for storing today's forecast data.
+2021-07-31 22:28:50,283 - Run Training - INFO - co Model Training Started
+2021-07-31 22:29:55,060 - Run Training - INFO - co Model Created
+2021-07-31 22:30:04,135 - Run Training - INFO - co Forecast Data is Saved
+2021-07-31 22:30:23,845 - Run Training - INFO - Actual vs Forecast for co saved.
+2021-07-31 22:30:23,848 - Run Training - INFO - Accuracy Metrics for co saved.
+2021-07-31 22:30:23,879 - Run Training - INFO - humidity Model Training Started
+2021-07-31 22:31:16,660 - Run Training - INFO - humidity Model Created
+2021-07-31 22:31:26,425 - Run Training - INFO - humidity Forecast Data is Saved
+2021-07-31 22:31:40,685 - Run Training - INFO - Actual vs Forecast for humidity saved.
+2021-07-31 22:31:40,687 - Run Training - INFO - Accuracy Metrics for humidity saved.
+2021-07-31 22:31:40,704 - Run Training - INFO - lpg Model Training Started
+2021-07-31 22:32:48,749 - Run Training - INFO - lpg Model Created
+2021-07-31 22:32:58,905 - Run Training - INFO - lpg Forecast Data is Saved
+2021-07-31 22:33:11,581 - Run Training - INFO - Actual vs Forecast for lpg saved.
+2021-07-31 22:33:11,584 - Run Training - INFO - Accuracy Metrics for lpg saved.
+2021-07-31 22:33:11,606 - Run Training - INFO - smoke Model Training Started
+2021-07-31 22:34:00,422 - Run Training - INFO - smoke Model Created
+2021-07-31 22:34:12,782 - Run Training - INFO - smoke Forecast Data is Saved
+2021-07-31 22:34:31,506 - Run Training - INFO - Actual vs Forecast for smoke saved.
+2021-07-31 22:34:31,510 - Run Training - INFO - Accuracy Metrics for smoke saved.
+2021-07-31 22:34:31,532 - Run Training - INFO - temp Model Training Started
+2021-07-31 22:35:20,752 - Run Training - INFO - temp Model Created
+2021-07-31 22:35:31,190 - Run Training - INFO - temp Forecast Data is Saved
+2021-07-31 22:35:44,991 - Run Training - INFO - Actual vs Forecast for temp saved.
+2021-07-31 22:35:44,996 - Run Training - INFO - Accuracy Metrics for temp saved.

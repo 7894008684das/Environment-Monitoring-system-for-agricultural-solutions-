@@ -1,0 +1,27 @@
+2021-07-31 22:08:01,775 - Database Import - ERROR - The "dnspython" module must be installed to use mongodb+srv:// URIs. To fix this error install pymongo with the srv extra:
+ C:\Users\pcm\anaconda3\envs\esad\python.exe -m pip install "pymongo[srv]"
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\load_data\database_import.py", line 70, in connect_to_server
+    client = pymongo.MongoClient(self.server_url)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\pymongo\mongo_client.py", line 672, in __init__
+    connect_timeout=timeout)
+  File "C:\Users\pcm\anaconda3\envs\esad\lib\site-packages\pymongo\uri_parser.py", line 453, in parse_uri
+    '%s -m pip install "pymongo[srv]"' % (python_path))
+pymongo.errors.ConfigurationError: The "dnspython" module must be installed to use mongodb+srv:// URIs. To fix this error install pymongo with the srv extra:
+ C:\Users\pcm\anaconda3\envs\esad\python.exe -m pip install "pymongo[srv]"
+2021-07-31 22:08:01,792 - Database Import - ERROR - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "F:\Coding\Projects\ESA_Ineuron\load_data\database_import.py", line 126, in import_to_csv
+    collection = db[sensor]
+TypeError: 'NoneType' object is not subscriptable
+2021-07-31 22:09:01,586 - Database Import - INFO - Sever Connected !
+2021-07-31 22:09:01,588 - Database Import - INFO - Writing data on co.csv
+2021-07-31 22:10:46,906 - Database Import - INFO - co.csv file created
+2021-07-31 22:10:46,907 - Database Import - INFO - Writing data on humidity.csv
+2021-07-31 22:11:58,337 - Database Import - INFO - humidity.csv file created
+2021-07-31 22:11:58,338 - Database Import - INFO - Writing data on lpg.csv
+2021-07-31 22:13:58,590 - Database Import - INFO - lpg.csv file created
+2021-07-31 22:13:58,591 - Database Import - INFO - Writing data on smoke.csv
+2021-07-31 22:15:36,533 - Database Import - INFO - smoke.csv file created
+2021-07-31 22:15:36,534 - Database Import - INFO - Writing data on temp.csv
+2021-07-31 22:17:13,445 - Database Import - INFO - temp.csv file created

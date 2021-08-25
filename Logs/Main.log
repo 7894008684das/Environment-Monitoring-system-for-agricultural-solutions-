@@ -1,0 +1,20 @@
+2021-07-31 22:08:01,675 - Main - INFO - ETL API Hit
+2021-07-31 22:08:01,759 - Main - INFO - Starting to Import Data
+2021-07-31 22:08:01,798 - Main - INFO - All the data are fetched from Database and ready to be combined !
+2021-07-31 22:09:01,456 - Main - INFO - ETL API Hit
+2021-07-31 22:09:01,461 - Main - INFO - Starting to Import Data
+2021-07-31 22:17:13,448 - Main - INFO - All the data are fetched from Database and ready to be combined !
+2021-07-31 22:19:47,205 - Main - INFO - Train API HIT
+2021-07-31 22:19:47,206 - Main - INFO - Loading data from RawData !
+2021-07-31 22:20:03,077 - Main - INFO - ETL completed, all sensor data combine csv created
+2021-07-31 22:20:03,079 - Main - INFO - Data Preprocessing Started !
+2021-07-31 22:20:10,706 - Main - INFO - Preprocessing Completed !
+2021-07-31 22:20:10,707 - Main - INFO - Model Training Started !
+2021-07-31 22:27:22,708 - Main - INFO - Model Training Completed !
+2021-07-31 22:28:43,675 - Main - INFO - Train API HIT
+2021-07-31 22:28:43,679 - Main - INFO - Loading data from RawData !
+2021-07-31 22:28:43,681 - Main - INFO - ETL completed, all sensor data combine csv created
+2021-07-31 22:28:43,681 - Main - INFO - Data Preprocessing Started !
+2021-07-31 22:28:50,249 - Main - INFO - Preprocessing Completed !
+2021-07-31 22:28:50,249 - Main - INFO - Model Training Started !
+2021-07-31 22:35:44,998 - Main - INFO - Model Training Completed !
